@@ -34,7 +34,7 @@ class Loginscreeenstate extends State<LoginScreen> {
    return TextFormField(
    validator: (value) {
    if (value == null || value.isEmpty) {
-     return 'Please enter email';
+     return 'Please enter Email';
    }
    if (!value.contains('@gmail.com') && !value.contains('@yahoo.com') && !value.contains('@icloud.com')) {
      return 'Enter a valid email';
@@ -60,7 +60,7 @@ class Loginscreeenstate extends State<LoginScreen> {
     decoration: InputDecoration(
    icon: Icon(Icons.vpn_key),
     labelText: 'Password',
-    hintText: '**********',
+    hintText: '*********',
     ),
     obscureText : true,
    );
