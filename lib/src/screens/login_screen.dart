@@ -27,7 +27,7 @@ These methods are defined in the FormState class, which is the internal state of
       child: Column(
         children: [
         email(),
-        Container(margin:EdgeInsets.only(bottom: 25.0)),
+        Container(margin:EdgeInsets.only(bottom: 26.0)),
         password(),
          Padding(
       padding: EdgeInsets.only(top: 30.0),
