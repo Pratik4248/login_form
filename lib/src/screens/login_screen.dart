@@ -29,10 +29,9 @@ These methods are defined in the FormState class, which is the internal state of
         email(),
       SizedBox(width: 25.0),
         password(),
-         Padding(
-      padding: EdgeInsets.only(top: 30.0),
-         child: submitbutton()
-         )
+        SizedBox(width: 30.0),
+        submitbutton()
+         
         ]
       ),
     ),
